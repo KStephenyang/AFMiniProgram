@@ -29,6 +29,7 @@ class ToasterMasterUser(db.Model):
     city = Column(String(30), nullable=False)
     club_name = Column(String(30), nullable=False)
     edu_title = Column(String(30), nullable=False)
+    user_right = Column(String(30), nullable=False)
 
     def __init__(self, session):
         self.user_id = str(session['user_id'])
@@ -41,6 +42,7 @@ class ToasterMasterUser(db.Model):
         self.city = str(session['city'])
         self.club_name = str(session['club_name'])
         self.edu_title = str(session['edu_title'])
+        self.user_right = str(session['user_right'])
 
 
 class UserDataModel:
@@ -55,6 +57,7 @@ class UserDataModel:
         self.city = 'Shanghai'
         self.club_name = 'AmazingFriday'
         self.edu_title = 'Member'
+        self.user_right = 'user'
 
     def set(self, form):
         self.user_id = str(form['user_id']) if 'user_id' in form else self.user_id
@@ -67,6 +70,7 @@ class UserDataModel:
         self.city = str(form['city']) if 'city' in form else self.city
         self.club_name = str(form['club_name']) if 'club_name' in form else self.club_name
         self.edu_title = str(form['edu_title']) if 'edu_title' in form else self.edu_title
+        self.user_right = str(form['user_right']) if 'user_right' in form else self.user_right
 
     def update(self, key, value):
         str_format = '{0}.{1} = {2}'.format(self, key, value)
