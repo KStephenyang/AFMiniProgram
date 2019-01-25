@@ -1,5 +1,5 @@
-# ToasterMasterMiniProgram
-头马俱乐部会议预定小程序
-1. 用户信息管理
-2. 会议预定
-3. 会议展示
+# AFMiniProgram
+AmazingFriday俱乐部活动管理小程序
+1. 活动展示
+2. 角色预定
+3. 信息管理
