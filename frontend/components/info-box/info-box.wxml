@@ -1,0 +1,11 @@
+<!--components/info-box/info-box.wxml-->
+<view class='container'>
+  <view class='box-container'>
+    <view class='item-container'>
+      <text class='item-reshape'>{{item}}</text>
+    </view>
+    <view class='value-container'>
+      <text class='value-reshape'>{{value}}</text>
+    </view>
+  </view>
+</view>

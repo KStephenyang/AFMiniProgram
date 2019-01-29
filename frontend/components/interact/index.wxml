@@ -1,0 +1,6 @@
+<!--components/interactive/index.wxml-->
+<view class='container'>
+  <view class='text-container'>
+    <text class='text-reshape'>{{keyword}}</text>
+  </view>
+</view>

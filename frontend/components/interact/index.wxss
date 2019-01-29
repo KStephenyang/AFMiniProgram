@@ -1,0 +1,23 @@
+/* components/interactive/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100rpx
+}
+
+.text-reshape{
+  font-size: 30rpx;
+  color: white
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:150rpx;
+  height:100rpx;
+}

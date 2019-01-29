@@ -1,0 +1,84 @@
+<!--pages/my/my.wxml-->
+<view class='container'>
+  <view wx:if='{{!authorized}}' open-type='getUserInfo' class='not-authoried' bind:getuserinfo='onGetUserInfo'>
+    <view class='avatar-info'>
+      <view class='avatar-image'>
+        <image slot='userImg' class='avatar-reshape' src='/images/my/user.png'/>
+      </view>
+      <view class='avatar-nickname'>
+        <text slot='userName' class='login-text'>登录/注册</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if='{{authorized}}' class='authrized'>
+    <view class='avatar-info'>
+      <view class='avatar-image'>
+        <image src='{{userInfo.avatarUrl}}' class='avatar-reshape'/>
+      </view>
+      <view class='avatar-nickname'>
+        <text  class='login-text'>{{userInfo.nickName}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if='{{is_admin}}' class='interact-container'>
+    <view class='item-tab  {{currentData == 0 ? "interact-item" : "text-reshape"}}'  data-current = "0" bindtap='checkCurrent'>我的活动</view>
+    <view class='item-tab  {{currentData == 1 ? "interact-item" : "text-reshape"}}'  data-current = "1" bindtap='checkCurrent'>我的预约</view>
+    <view class='item-tab  {{currentData == 2 ? "interact-item" : "text-reshape"}}'  data-current = "2" bindtap='checkCurrent'>我的头马</view>
+  </view>
+
+  <view wx:if='{{!is_admin}}' class='interact-container'>
+    <view class='item-tab  {{currentData == 0 ? "interact-item" : "text-reshape"}}'  data-current = "0" bindtap='checkCurrent'>我的预约</view>
+    <view class='item-tab  {{currentData == 1 ? "interact-item" : "text-reshape"}}'  data-current = "1" bindtap='checkCurrent'>我的头马</view>
+  </view>
+
+  <swiper wx:if='{{is_admin}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
+    <swiper-item>
+      <view class='activity-container'>
+        <my-activity book_type='{{activity_message.type}}'
+                     meeting_topic='{{activity_message.meeting_topic}}'
+                     meeting_time='{{activity_message.meeting_time}}'
+                     meeting_location='{{activity_message.meeting_location}}'
+                     guest='{{activity_message.guest}}'></my-activity>
+      </view>
+    </swiper-item> 
+    <swiper-item>
+      <view class='book-container'>
+        <my-book book_type='{{book_message.type}}'
+                 meeting_time='{{book_message.meeting_time}}'
+                 meeting_location='{{book_message.meeting_location}}'
+                 role='{{book_message.role}}'
+                 meeting_topic='{{book_message.meeting_topic}}'></my-book>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='club-container'>
+        <my-club club_name='{{club_message.club_name}}' 
+                 club_level='{{club_message.club_level}}'
+                 role='{{club_message.role}}'
+                 role_duty='{{club_message.role_duty}}'></my-club>
+      </view>
+    </swiper-item>  
+  </swiper>
+
+  <swiper wx:if='{{!is_admin}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
+    <swiper-item>
+      <view class='book-container'>
+        <my-book book_type='{{book_message.type}}'
+                 meeting_time='{{book_message.meeting_time}}'
+                 meeting_location='{{book_message.meeting_location}}'
+                 role='{{book_message.role}}'
+                 meeting_topic='{{book_message.meeting_topic}}'></my-book>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='club-container'>
+        <my-club club_name='{{club_message.club_name}}' 
+                 club_level='{{club_message.club_level}}'
+                 role='{{club_message.role}}'
+                 role_duty='{{club_message.role_duty}}'></my-club>
+      </view>
+    </swiper-item>  
+  </swiper>
+</view>

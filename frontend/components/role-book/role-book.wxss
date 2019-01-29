@@ -1,0 +1,37 @@
+/* components/role-book.wxss */
+.role-book-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  width: 720rpx;
+  height: 100%;
+  border-radius: 30rpx;
+  background-color: white
+}
+.club-item{
+  display: flex;
+  width: 680rpx;
+  height: 80rpx;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white
+}
+
+.club-name{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #ff998d
+}
+
+.role-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: space-around;
+  width: 100%;
+  height: 230rpx;
+  border-radius: 50rpx;
+  background-color: white
+}

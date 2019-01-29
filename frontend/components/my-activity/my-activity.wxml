@@ -1,0 +1,20 @@
+<!--components/my-activity/my-activity.wxml-->
+<view class='book-container'>
+    <view class='type-container'>
+      <view class='item-container'>
+        <text class='type-text'>{{book_type}}</text>
+      </view>
+    </view>
+    <view class='info-container'>
+      <v-info item='会议主题' value='{{meeting_topic}}'></v-info>
+    </view>
+    <view class='info-container'>
+      <v-info item='会议时间' value='{{meeting_time}}'></v-info>
+    </view>
+    <view class='info-container'>
+      <v-info item='会议地点' value='{{meeting_location}}'></v-info>
+    </view>
+    <view class='info-container'>
+      <v-info item='分享嘉宾' value='{{guest}}'></v-info>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "calendar": "/components/calendar/calendar",
+    "role-box": "/components/role-box/role-box",
+    "role-book": "/components/role-book/role-book"
+  }
+}

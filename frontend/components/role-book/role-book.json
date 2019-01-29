@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "role-box": "/components/role-box/role-box"
+  }
+}

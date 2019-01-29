@@ -1,0 +1,30 @@
+<!--components/role-book.wxml-->
+<view class='role-book-container'>
+      <view class='club-item'>
+        <text class='club-name'>{{club}}</text>
+      </view>
+      <view class='role-container'>
+          <role-box role='TME' booker="{{tme}}" avatar_src="/images/cartoon/cartoon@01.png"></role-box>
+          <role-box role='TTM' booker="{{ttm}}" avatar_src="/images/cartoon/cartoon@02.png"></role-box>
+          <role-box role='GE' booker="{{ge}}" avatar_src="/images/cartoon/cartoon@03.png"></role-box>
+      </view>
+      <view class='role-container'>
+          <role-box role='Timer' booker="{{timer}}" avatar_src="/images/cartoon/cartoon@04.png"></role-box>
+          <role-box role='Ah-counter' booker="{{ah_counter}}" avatar_src="/images/cartoon/cartoon@05.png"></role-box>
+          <role-box role='Grammarian' booker="{{grammarian}}" avatar_src="/images/cartoon/cartoon@06.png"></role-box>
+      </view>
+      <view class='role-container'>
+          <role-box role='Speech1' booker="{{speech1}}" avatar_src="/images/cartoon/cartoon@07.png"></role-box>
+          <role-box role='Speech2' booker="{{speech2}}" avatar_src="/images/cartoon/cartoon@08.png"></role-box>
+          <role-box role='Speech3' booker="{{speech3}}" avatar_src="/images/cartoon/cartoon@09.png"></role-box>
+      </view>
+      <view class='role-container'>
+          <role-box role='IE1' booker="{{ie1}}" avatar_src="/images/cartoon/cartoon@10.png"></role-box>
+          <role-box role='IE2' booker="{{ie2}}" avatar_src="/images/cartoon/cartoon@11.png"></role-box>
+          <role-box role='IE3' booker="{{ie3}}" avatar_src="/images/cartoon/cartoon@12.png"></role-box>
+      </view>
+      <view class='role-container'>
+          <role-box role='SAA' booker="{{saa}}" avatar_src="/images/cartoon/cartoon@13.png"></role-box>
+          <role-box role='Recorder' booker="{{recorder}}" avatar_src="/images/cartoon/cartoon@14.png"></role-box>
+      </view>
+</view>

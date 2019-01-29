@@ -1,0 +1,7 @@
+<!--components/award/index.wxml-->
+<view class="touma">
+    <image class="image-medal" src="/images/medal/medal.png" />
+    <view class="text-container">
+        <text class="text">Lv {{level}}</text>
+    </view>
+</view>

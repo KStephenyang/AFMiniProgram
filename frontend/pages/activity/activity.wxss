@@ -1,0 +1,38 @@
+/* pages/health/health.wxss */
+.activity-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.poster-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 430rpx;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.u-wrp-bnr {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.photo-reshape{
+    width: 100%;
+    height: inherit;
+}

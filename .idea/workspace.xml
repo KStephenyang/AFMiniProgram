@@ -2,8 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c6375ce-d646-4b2a-b2bc-86fad1cd2007" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/app.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/activity-message/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/activity-message/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/activity-message/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/activity-message/index.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/award/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/award/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/award/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/award/index.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/calendar/calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/calendar/calendar.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/calendar/calendar.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/calendar/calendar.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/compare/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/compare/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/compare/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/compare/index.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/image-button/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/image-button/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/image-button/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/image-button/index.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/info-box/info-box.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/info-box/info-box.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/info-box/info-box.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/info-box/info-box.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/interact/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/interact/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/interact/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/interact/index.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-activity/my-activity.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-activity/my-activity.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-activity/my-activity.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-activity/my-activity.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-book/my-book.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-book/my-book.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-book/my-book.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-book/my-book.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-club/my-club.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-club/my-club.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-club/my-club.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/my-club/my-club.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-book/role-book.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-book/role-book.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-book/role-book.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-book/role-book.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-box/role-box.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-box/role-box.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-box/role-box.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/components/role-box/role-box.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/files/体脂机器人微信小程序接口v0.0.1.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/amazingfriday@logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/amazingfriday@meeting1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/amazingfriday@meeting2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/amazingfriday@meeting3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/lighthouse@logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/siemensstar@logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/activity/toastermaster@logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/cartoon/cartoon@14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/common/forward@bl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/common/forward@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/common/forward@wh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/health/bodyfat@blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/health/weight@green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/device.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/fav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/goal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/ht_wt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/line@black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/line@white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/mall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/triangl@up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/icon/triangle@down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/medal/medal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/medal/medal@blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/medal/medal@pink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/medal/medal@red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/medal/medal@yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/my/setting.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/my/setting@wh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/my/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/my/user@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/bigger.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/bigger@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/farvirate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/farvirate@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/health.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/health1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/health1@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/health@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/my.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/my@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/news.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/news@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/smaller.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/images/tab/smaller@hl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/models/user.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/activity/activity.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/activity/activity.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/activity/activity.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/activity/activity.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/meeting/meeting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/meeting/meeting.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/meeting/meeting.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/meeting/meeting.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/my/my.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/my/my.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/my/my.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/my/my.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/settings/settings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/settings/settings.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/settings/settings.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pages/settings/settings.wxss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/project.config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/utils/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/utils/http.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,6 +176,11 @@
               <item name="AFMiniProgram" type="b2602c69:ProjectViewProjectNode" />
               <item name="AFMiniProgram" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AFMiniProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AFMiniProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -83,6 +219,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548745047842</updated>
     </task>
+    <task id="LOCAL-00001" summary="删除frontend">
+      <created>1548745488667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548745488668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">

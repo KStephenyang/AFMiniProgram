@@ -1,0 +1,114 @@
+/* components/activity-message/index.wxss */
+.message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    width: 100%;
+    height: 200rpx;
+    margin: 10rpx;
+    background-color: whitesmoke;
+}
+
+.message-layout{
+    display: flex;
+    flex-direction: row;
+    width: 750rpx;
+    margin: 10rpx;
+    height: 200rpx;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-item{
+  display: flex;
+  width: 260rpx;
+  height: 180rpx;
+  margin: 10rpx;
+  justify-content: center;
+  align-items: center
+}
+
+.icon-image{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.club-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200rpx;
+    margin: 10rpx;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.club-view{
+    display: flex;
+    flex-direction: column;
+    height: 50rpx
+}
+
+.club-name{
+    font-size: 35rpx;
+    font-weight: bold;
+}
+
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.theme-view{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    align-items: flex-start;
+    justify-content: center
+}
+
+.theme-info{
+    font-size: 24rpx;
+}
+
+.book-view{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-items: center; 
+    justify-content: flex-end
+}
+
+.book-button-close{
+    display: flex;
+    width: 120rpx;
+    height: 50rpx;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color:gray
+}
+
+.book-button-open{
+    display: flex;
+    width: 120rpx;
+    height: 50rpx;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    background-color:#ff3333
+}
+
+.book-info{
+    font-size: 22rpx;
+    font-weight: bold;
+    color: whitesmoke
+}

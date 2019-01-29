@@ -1,0 +1,9 @@
+/* components/image-button/index.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 !important;
+  border:none !important;
+  }

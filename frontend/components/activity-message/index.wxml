@@ -1,0 +1,32 @@
+<!--components/activity-message/index.wxml-->
+<view class="message-container">
+    <view class="message-layout">
+        <view class='icon-item'>
+            <image class="icon-image" src="{{poster_image}}" />
+        </view>
+        
+        <view class="club-item">
+            <view class='club-view'>
+                <text class="club-name">{{club}}</text>
+            </view>
+            <view class="detail-info">
+                <view class="theme-view">
+                    <text class="theme-info">会议主题：{{topic}}</text>
+                    <text class="theme-info">会议时间：{{time}}</text>
+                    <text class="theme-info">会议地点：{{location}}</text>
+                    <text class="theme-info">分享嘉宾：{{guest}}</text>
+                </view>
+                <view wx:if="{{!book_right}}" class="book-view">
+                    <view class='book-button-close'>
+                        <text class="book-info">预约</text>
+                    </view>
+                </view>
+                <view wx:if="{{book_right}}" class="book-view">
+                    <view class='book-button-open'>
+                        <text class="book-info">预约</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "v-interact":"/components/interact/index",
+    "v-award":"/components/award/index",
+    "v-button":"/components/image-button/index",
+    "my-activity": "/components/my-activity/my-activity",
+    "my-book": "/components/my-book/my-book",
+    "my-club": "/components/my-club/my-club"
+  }
+}

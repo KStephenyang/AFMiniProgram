@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/meeting/meeting",
+    "pages/activity/activity",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0097FF",
+    "navigationBarTitleText": "AmazingFriday",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#0097FF",
+    "backgroundColor": "#EEEEEE",
+    "color": "#cdcdcd",
+    "list": [
+      {
+        "selectedIconPath": "/images/tab/health1@hl.png",
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "/images/tab/health1.png"
+      },
+      {
+        "pagePath": "pages/meeting/meeting",
+        "selectedIconPath": "/images/tab/news@hl.png",
+        "iconPath": "/images/tab/news.png",
+        "text": "角色"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "/images/tab/my@hl.png",
+        "iconPath": "/images/tab/my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

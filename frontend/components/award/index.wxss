@@ -1,0 +1,26 @@
+/* components/award/index.wxss */
+.text-container{
+    display: flex;
+    flex-direction: row;
+    width: 80rpx;
+    justify-content:center;
+    background-color: rgb(120, 42, 165);
+    border-radius: 60%;
+}
+
+.touma{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    /* font-size: 20rpx; */
+    color:#fff;
+}
+
+.image-medal{
+    width: 128rpx;
+    height: 128rpx;
+}

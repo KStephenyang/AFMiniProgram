@@ -1,0 +1,16 @@
+<!--components/role-box/role-box.wxml-->
+<view class='role-box'>
+    <view class='booker-role'>
+      <text class='booker-role-text'>{{role}}</text>
+    </view>
+    <view class='booker-info'>
+      <view class='headimg-container'>
+        <view class='image-container'>
+          <image class='avatar-image' src='{{avatar_src}}'></image>
+        </view>
+      </view>
+      <view class='name-container'>
+        <text class='booker-name-text'>{{booker}}</text>
+      </view>
+    </view>
+</view>

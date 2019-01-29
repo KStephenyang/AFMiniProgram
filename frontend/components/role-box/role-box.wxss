@@ -1,0 +1,72 @@
+/* components/role-box/role-box.wxss */
+.role-box{
+  display: flex;
+  width: 220rpx;
+  height: 220rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rpx;
+  background-color: #76d1b1
+}
+.booker-role{
+  display: flex;
+  width: 100%;
+  height: 40rpx;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50rpx;
+}
+.booker-role-text{
+  font-size: 25rpx;
+  font-weight: bold;
+  color: #333333
+}
+
+.booker-info{
+ display: flex;
+ width: 100%;
+ height: 180rpx;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.headimg-container{
+  display: flex;
+  height: 140rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.image-container{
+  display: flex;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background-color: white
+}
+.avatar-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.name-container{
+  display: flex;
+  height: 40rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.booker-name-text{
+  font-size: 25rpx;
+  font-weight: bold;
+  color: 333333
+}

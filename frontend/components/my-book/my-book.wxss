@@ -1,0 +1,44 @@
+/* components/my-booky/my-book.wxss */
+.booky-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 600rpx;
+  height: 360rpx;
+  background-color: white;
+}
+.type-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 100%;
+  height: 60rpx;
+  background-color: white;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 100%;
+  height: 60rpx;
+  background-color: white;
+}
+
+.item-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.type-text{
+  font-size: 30rpx;
+  color: blueviolet;
+  font-weight: bold
+}

@@ -1,0 +1,17 @@
+<!--components/my-club/my-club.wxml-->
+  <view class='club-container'>
+      <view class='type-container'>
+        <view class='item-container'>
+          <text class='type-text'>{{club_name}}</text>
+        </view>
+      </view>
+      <view class='club-info-container'>
+        <v-info item='我的等级' value='{{club_level}}'></v-info>
+      </view>
+      <view class='club-info-container'>
+        <v-info item='我的角色' value='{{role}}'></v-info>
+      </view>
+      <view class='club-info-container'>
+        <v-info item='角色职责' value='{{role_duty}}'></v-info>
+      </view>
+  </view>

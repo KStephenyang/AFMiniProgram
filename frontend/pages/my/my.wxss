@@ -1,0 +1,144 @@
+/* pages/my/my.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke
+}
+
+.not-authoried{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 280rpx;
+  background-color: #0097ff;
+}
+
+.authrized{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 280rpx;
+  background-color: #0097ff;
+}
+.avatar-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200rpx;
+  height: 250rpx;
+  margin-top: 10rpx;
+}
+.avatar-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.avatar-reshape {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar-nickname{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200rpx;
+  height: 50rpx;
+}
+
+.login-text{
+  font-size: 30rpx;
+  color: white;
+}
+
+.interact-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color:#0097ff;
+  width: 100%;
+  height: 110rpx;
+  align-items: center
+}
+
+.item-tab{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+.interact-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 30rpx;
+  font-weight: bold;
+  border-bottom: 1px solid blueviolet; 
+  color: blueviolet;
+}
+.my-swiper{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 700rpx;
+  height: 360rpx;
+  border-radius: 50rpx;
+  margin-top: 20rpx;
+  background-color: whitesmoke;
+}
+.activity-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 700rpx;
+  height: 360rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.book-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 700rpx;
+  height: 360rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.club-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 700rpx;
+  height: 320rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.text-reshape{
+  font-size: 30rpx;
+  color: white
+}

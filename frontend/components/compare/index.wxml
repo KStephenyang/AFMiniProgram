@@ -1,0 +1,23 @@
+<view class="compare-container">
+    <view class="compare-content">
+        <view class="compare-vu">
+            <text class="compare-value">1</text>
+            <text class="compare-unit">斤</text>
+        </view>
+        <view class="last-compare">
+            <image class="last-compare-icon" src="../../images/icon/triangl@up.png"/>
+            <text class="last-compare-text">比上次(7/6)</text>
+        </view>
+    </view>
+    <image class="block" src="../../images/icon/line@black.png"/>
+    <view class="compare-content">
+        <view class="compare-vu">
+            <text class="compare-value">1.2</text>
+            <text class="compare-unit">斤</text>
+        </view>
+        <view class="last-compare">
+            <image class="last-compare-icon" src="../../images/icon/triangl@up.png"/>
+            <text class="last-compare-text">比60天前(6/4)</text>
+        </view>
+    </view>  
+</view>
