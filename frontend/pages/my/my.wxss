@@ -5,8 +5,8 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 100%;
-  background-color: whitesmoke
+  /* height: 100%; */
+  /* background-color: whitesmoke */
 }
 
 .not-authoried{
@@ -80,7 +80,7 @@
 .item-tab{
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 110rpx;
   flex-direction: row;
   justify-content: center;
   align-items: center
@@ -90,7 +90,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 110rpx;
   align-items: center;
   font-size: 30rpx;
   font-weight: bold;
@@ -106,7 +106,7 @@
   height: 360rpx;
   border-radius: 50rpx;
   margin-top: 20rpx;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 .activity-container{
   display: flex;
@@ -134,11 +134,63 @@
   align-items: center;
   justify-content: space-around;
   width: 700rpx;
-  height: 320rpx;
+  height: 360rpx;
   border-radius: 50rpx;
   background-color: white;
 }
 .text-reshape{
   font-size: 30rpx;
   color: white
+}
+
+.add-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20rpx;
+  right: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.add-icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.icon-reshape{
+  display: flex;
+  width: 80rpx;
+  height: 80rpx
+}
+
+.logout-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 700rpx;
+  height: 200rpx;
+  border-radius: 50rpx;
+  margin-top: 20rpx;
+  background-color: white
+}
+
+.logout-state{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 600rpx;
+  height: 200rpx;
+  border-radius: 50rpx;
+  background-color: white;
 }

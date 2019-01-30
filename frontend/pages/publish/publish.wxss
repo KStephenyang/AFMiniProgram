@@ -1,0 +1,58 @@
+/* pages/settings/settings.wxss */
+.publish-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.activity-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 700rpx;
+  height: 540rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.activity-item-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 700rpx;
+  height: 520rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 700rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+
+.publish-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  margin-right: 15rpx;
+  margin-bottom: 15rpx;
+  background-color: red
+}
+.text-reshape{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: white
+}

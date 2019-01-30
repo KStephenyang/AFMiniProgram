@@ -6,14 +6,14 @@
         <image slot='userImg' class='avatar-reshape' src='/images/my/user.png'/>
       </view>
       <view class='avatar-nickname'>
-        <text slot='userName' class='login-text'>登录/注册</text>
+        <text slot='userName' class='login-text'>点击登录</text>
       </view>
     </view>
   </view>
 
   <view wx:if='{{authorized}}' class='authrized'>
     <view class='avatar-info'>
-      <view class='avatar-image'>
+      <view class='avatar-image' bindtap='onNavigateToUserEdit'>
         <image src='{{userInfo.avatarUrl}}' class='avatar-reshape'/>
       </view>
       <view class='avatar-nickname'>
@@ -22,18 +22,18 @@
     </view>
   </view>
 
-  <view wx:if='{{is_admin}}' class='interact-container'>
+  <view wx:if='{{is_admin && is_login}}' class='interact-container'>
     <view class='item-tab  {{currentData == 0 ? "interact-item" : "text-reshape"}}'  data-current = "0" bindtap='checkCurrent'>我的活动</view>
     <view class='item-tab  {{currentData == 1 ? "interact-item" : "text-reshape"}}'  data-current = "1" bindtap='checkCurrent'>我的预约</view>
     <view class='item-tab  {{currentData == 2 ? "interact-item" : "text-reshape"}}'  data-current = "2" bindtap='checkCurrent'>我的头马</view>
   </view>
 
-  <view wx:if='{{!is_admin}}' class='interact-container'>
+  <view wx:if='{{!is_admin && is_login}}' class='interact-container'>
     <view class='item-tab  {{currentData == 0 ? "interact-item" : "text-reshape"}}'  data-current = "0" bindtap='checkCurrent'>我的预约</view>
     <view class='item-tab  {{currentData == 1 ? "interact-item" : "text-reshape"}}'  data-current = "1" bindtap='checkCurrent'>我的头马</view>
   </view>
 
-  <swiper wx:if='{{is_admin}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
+  <swiper wx:if='{{is_admin && is_login}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
     <swiper-item>
       <view class='activity-container'>
         <my-activity book_type='{{activity_message.type}}'
@@ -42,7 +42,7 @@
                      meeting_location='{{activity_message.meeting_location}}'
                      guest='{{activity_message.guest}}'></my-activity>
       </view>
-    </swiper-item> 
+    </swiper-item>
     <swiper-item>
       <view class='book-container'>
         <my-book book_type='{{book_message.type}}'
@@ -57,12 +57,13 @@
         <my-club club_name='{{club_message.club_name}}' 
                  club_level='{{club_message.club_level}}'
                  role='{{club_message.role}}'
-                 role_duty='{{club_message.role_duty}}'></my-club>
+                 role_duty='{{club_message.role_duty}}'
+                 mentor='{{club_message.mentor}}'></my-club>
       </view>
     </swiper-item>  
   </swiper>
 
-  <swiper wx:if='{{!is_admin}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
+  <swiper wx:if='{{!is_admin && is_login}}' current="{{currentData}}" class='my-swiper' bindchange="bindchange">
     <swiper-item>
       <view class='book-container'>
         <my-book book_type='{{book_message.type}}'
@@ -77,8 +78,21 @@
         <my-club club_name='{{club_message.club_name}}' 
                  club_level='{{club_message.club_level}}'
                  role='{{club_message.role}}'
-                 role_duty='{{club_message.role_duty}}'></my-club>
+                 role_duty='{{club_message.role_duty}}'
+                 mentor='{{club_message.mentor}}'></my-club>
       </view>
     </swiper-item>  
   </swiper>
+
+  <view wx:if='{{is_admin && is_login}}' class='add-container' bindtap='onNavigateToPublish'>
+    <view class='add-icon-container'>
+      <image class='icon-reshape' src='/images/my/add@03.png'></image>
+    </view>
+  </view>
+
+  <view class='logout-container' wx:if='{{!is_login}}'>
+    <view class='logout-state'>
+      <text>AmazingFridayTMC是一个特别美好的大家庭，欢迎各位小哥哥小姐姐加入！</text>
+    </view>
+  </view>
 </view>

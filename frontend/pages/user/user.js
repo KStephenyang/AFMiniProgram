@@ -1,11 +1,17 @@
-// pages/settings/settings.js
+// pages/user-info/user-info.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    my_info: {
+      my_level: 'PathwayTwo',
+      my_role: 'Officer',
+      my_duty: 'Host a club',
+      my_mentor: 'Kelly',
+      my_club: 'AmazingFriday'
+    }
   },
 
   /**
@@ -62,5 +68,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  onNavigateToMy: function (event) {
+    wx.switchTab({
+      url: '/pages/my/my',
+    })
   }
 })

@@ -1,9 +1,10 @@
-<!--components/my-activity/my-activity.wxml-->
-<view class='activity-container'>
-    <view class='type-container'>
-      <view class='item-container'>
-        <text class='type-text'>{{book_type}}</text>
-      </view>
+<!--components/activity-publish/publish.wxml-->
+<view class='book-container'>
+    <view class='info-container'>
+      <v-info item='俱乐部' value='{{club}}'></v-info>
+    </view>
+    <view class='info-container'>
+      <v-info item='会议类型' value='{{meeting_type}}'></v-info>
     </view>
     <view class='info-container'>
       <v-info item='会议主题' value='{{meeting_topic}}'></v-info>

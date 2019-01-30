@@ -5,7 +5,7 @@
             <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
                 <block wx:for="{{imgUrls}}" wx:for-index="index">
                     <swiper-item>
-                    <image src='{{item}}' class='photo-reshape' mode='aspectFill'></image>
+                      <image src='{{item}}' class='photo-reshape' mode='aspectFill'></image>
                     </swiper-item>
                 </block>
             </swiper>
@@ -17,7 +17,8 @@
                 time="{{activity_message1.meeting_time}}" 
                 location="{{activity_message1.meeting_location}}" 
                 guest="{{activity_message1.guest}}" 
-                poster_image="{{activity_message1.poster_image}}"></v-activity>
+                poster_image="{{activity_message1.poster_image}}"
+                bindtap='onNavigateToRole'></v-activity>
     <v-activity book_right="{{activity_message2.book_right}}" 
                 club="{{activity_message1.club_name}}" 
                 topic="{{activity_message2.topic}}" 

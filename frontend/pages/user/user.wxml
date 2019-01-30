@@ -1,0 +1,17 @@
+<!--pages/user-info/user-info.wxml-->
+<view class='publish-container'>
+  <view class='activity-container'>
+      <view class='activity-item-container'>
+        <user-edit my_club='{{my_info.my_club}}'
+                   my_level='{{my_info.my_level}}'
+                   my_role='{{my_info.my_role}}'
+                   my_duty='{{my_info.my_duty}}'
+                   my_mentor='{{my_info.my_mentor}}'></user-edit>
+      </view> 
+      <view class='button-container'>
+        <view class='publish-button' bindtap='onNavigateToMy'>
+          <text class='text-reshape'>确定</text>
+        </view>
+      </view>
+  </view>
+</view>

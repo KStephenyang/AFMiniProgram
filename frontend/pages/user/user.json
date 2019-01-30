@@ -1,0 +1,5 @@
+{
+  "usingComponents": { 
+    "user-edit": "/components/user-edit/user-edit"
+   }
+}

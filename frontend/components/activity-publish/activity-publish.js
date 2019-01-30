@@ -1,24 +1,27 @@
-// components/my-club/my-club.js
+// components/activity-publish/publish.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    club_name: {
+    meeting_time: {
       type: String
     },
-    club_level: {
+    meeting_location: {
       type: String
     },
-    role: {
+    meeting_topic: {
       type: String
     },
-    role_duty: {
+    guest: {
       type: String
     },
-    mentor: {
+    meeting_type: {
       type: String
     },
+    club: {
+      type: String
+    }
   },
 
   /**

@@ -1,0 +1,58 @@
+/* pages/user-info/user-info.wxss */
+.publish-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.activity-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-around;
+  width: 700rpx;
+  height: 420rpx;
+  border-radius: 50rpx;
+  background-color: white;
+}
+.activity-item-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 700rpx;
+  height: 360rpx;
+  border-radius: 50rpx;
+  margin-top: 20rpx;
+  background-color: white;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 700rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+}
+
+.publish-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  /* margin-bottom: 20rpx; */
+  background-color: red
+}
+.text-reshape{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: white
+}

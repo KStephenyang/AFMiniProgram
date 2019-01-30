@@ -66,7 +66,7 @@ Component({
             self.setData({
               dateShow: true
             }, () => {
-              self.triggerEvent('select', { ischeck: !self.data.calShow })
+              self.triggerEvent('select', {ischeck: !self.data.calShow})
             })
           }, 100)
         })
@@ -83,10 +83,9 @@ Component({
           }, 300)
         })
       }
-
     },
-    selectDay(e) {
 
+    selectDay(e) {
       let index = e.currentTarget.dataset.index;
       let week = e.currentTarget.dataset.week;
       let ischeck = e.currentTarget.dataset.ischeck;

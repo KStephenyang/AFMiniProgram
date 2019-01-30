@@ -94,5 +94,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  onNavigateToRole:function(){
+    wx.switchTab({
+      url: '/pages/meeting/meeting',
+    })
   }
 })

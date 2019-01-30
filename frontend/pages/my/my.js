@@ -33,11 +33,13 @@ Page({
       club_name: 'AmazingFridayTMC',
       club_level: 'PathwayTwo',
       role: 'President',
-      role_duty: 'Host a speech'
+      role_duty: 'Host a speech',
+      mentor: 'Kelly'
     },
     authorized:false,
     userInfo: null,
-    is_admin: true
+    is_admin: true,
+    is_login: true
   },
 
   onLoad: function (options) {
@@ -150,5 +152,16 @@ Page({
         currentData: current_data
       })  
     }
+  },
+
+  onNavigateToPublish: function(event){
+    wx.navigateTo({
+      url: '/pages/publish/publish',
+    })
+  },
+  onNavigateToUserEdit: function (event) {
+    wx.navigateTo({
+      url: '/pages/user/user',
+    })
   }
 })

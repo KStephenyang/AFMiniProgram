@@ -12,6 +12,9 @@
         <v-info item='我的角色' value='{{role}}'></v-info>
       </view>
       <view class='club-info-container'>
-        <v-info item='角色职责' value='{{role_duty}}'></v-info>
+        <v-info item='我的职责' value='{{role_duty}}'></v-info>
+      </view>
+      <view class='club-info-container'>
+        <v-info item='我的导师' value='{{mentor}}'></v-info>
       </view>
   </view>

@@ -1,24 +1,24 @@
-// components/my-club/my-club.js
+// components/user-edit/user-edit.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    club_name: {
+    my_club: {
       type: String
     },
-    club_level: {
+    my_level: {
       type: String
     },
-    role: {
+    my_role: {
       type: String
     },
-    role_duty: {
+    my_duty: {
       type: String
     },
-    mentor: {
+    my_mentor: {
       type: String
-    },
+    }
   },
 
   /**

@@ -1,22 +1,14 @@
-/* components/my-booky/my-book.wxss */
+/* components/activity-publish/publish.wxss */
 .book-container{
   display: flex;
   flex-direction: column;
   align-items: center; 
   justify-content: space-around;
   width: 600rpx;
-  height: 300rpx;
+  height: 460rpx;
   background-color: white;
 }
-.type-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: space-around;
-  width: 100%;
-  height: 60rpx;
-  background-color: white;
-}
+
 .info-container{
   display: flex;
   flex-direction: column;

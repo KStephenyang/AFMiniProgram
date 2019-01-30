@@ -1,0 +1,18 @@
+<!--pages/settings/settings.wxml-->
+<view class='publish-container'>
+  <view class='activity-container'>
+      <view class='activity-item-container'>
+        <my-publish club='{{activity_message.club}}'
+                  meeting_type='{{activity_message.type}}'
+                  meeting_topic='{{activity_message.meeting_topic}}'
+                  meeting_time='{{activity_message.meeting_time}}'
+                  meeting_location='{{activity_message.meeting_location}}'
+                  guest='{{activity_message.guest}}'></my-publish>
+      </view> 
+      <view class='button-container'>
+        <view class='publish-button' bindtap='onNavigateToActivity'>
+          <text class='text-reshape'>发布</text>
+        </view>
+      </view>
+  </view>
+</view>

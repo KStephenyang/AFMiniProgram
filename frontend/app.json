@@ -3,8 +3,10 @@
     "pages/my/my",
     "pages/meeting/meeting",
     "pages/activity/activity",
-    "pages/settings/settings"
+    "pages/publish/publish",
+    "pages/user/user"
   ],
+
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0097FF",
