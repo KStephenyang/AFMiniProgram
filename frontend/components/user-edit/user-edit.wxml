@@ -1,7 +1,10 @@
 <!--components/user-edit/user-edit.wxml-->
 <view class='user-edit-container'>
     <view class='info-container'>
-      <v-info item='俱乐部' value='{{my_club}}'></v-info>
+      <v-info item='我的名字' value='{{my_name}}'></v-info>
+    </view>
+    <view class='info-container'>
+      <v-info item='我的头马' value='{{my_club}}'></v-info>
     </view>
     <view class='info-container'>
       <v-info item='我的等级' value='{{my_level}}'></v-info>

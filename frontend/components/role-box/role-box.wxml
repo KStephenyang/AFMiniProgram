@@ -1,5 +1,5 @@
 <!--components/role-box/role-box.wxml-->
-<view class='role-box'>
+<view class='role-box' bindtap='showtip'>
     <view class='booker-role'>
       <text class='booker-role-text'>{{role}}</text>
     </view>

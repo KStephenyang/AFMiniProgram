@@ -2,7 +2,8 @@
 <view class='publish-container'>
   <view class='activity-container'>
       <view class='activity-item-container'>
-        <user-edit my_club='{{my_info.my_club}}'
+        <user-edit my_name='{{my_info.my_name}}'
+                   my_club='{{my_info.my_club}}'
                    my_level='{{my_info.my_level}}'
                    my_role='{{my_info.my_role}}'
                    my_duty='{{my_info.my_duty}}'

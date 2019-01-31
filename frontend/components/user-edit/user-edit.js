@@ -4,6 +4,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    my_name: {
+      type: String
+    },
     my_club: {
       type: String
     },

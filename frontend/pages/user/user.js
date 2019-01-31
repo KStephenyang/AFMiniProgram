@@ -6,6 +6,7 @@ Page({
    */
   data: {
     my_info: {
+      my_name: 'Stephen',
       my_level: 'PathwayTwo',
       my_role: 'Officer',
       my_duty: 'Host a club',

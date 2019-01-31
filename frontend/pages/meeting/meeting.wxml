@@ -5,19 +5,19 @@
   </view>
   <view class='role-book-container'>
     <role-book club="{{book_info.club}}" 
-             tme="{{book_info.TME}}" 
-             ttm="{{book_info.TTM}}" 
-             ge="{{book_info.GE}}" 
-             timer="{{book_info.Timer}}" 
-             ah_counter="{{book_info.Ah_counter}}" 
-             grammarian="{{book_info.Grammarian}}" 
-             speech1="{{book_info.Speech1}}"
-             speech2="{{book_info.Speech2}}"
-             speech3="{{book_info.Speech3}}"
-             ie1="{{book_info.IE1}}"
-             ie2="{{book_info.IE2}}"
-             ie3="{{book_info.IE3}}"
-             saa="{{book_info.SAA}}"
-             recorder="{{book_info.Recorder}}"></role-book>
+               tme="{{book_info.TME}}" 
+               ttm="{{book_info.TTM}}" 
+               ge="{{book_info.GE}}" 
+               timer="{{book_info.Timer}}" 
+               ah_counter="{{book_info.Ah_counter}}" 
+               grammarian="{{book_info.Grammarian}}" 
+               speech1="{{book_info.Speech1}}"
+               speech2="{{book_info.Speech2}}"
+               speech3="{{book_info.Speech3}}"
+               ie1="{{book_info.IE1}}"
+               ie2="{{book_info.IE2}}"
+               ie3="{{book_info.IE3}}"
+               saa="{{book_info.SAA}}"
+               recorder="{{book_info.Recorder}}"></role-book>
   </view>
 </view>
