@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "v-info": "/components/info-box/info-box"
+    "v-info": "/components/info-edit/info-edit"
   }
 }

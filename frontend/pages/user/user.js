@@ -6,12 +6,12 @@ Page({
    */
   data: {
     my_info: {
-      my_name: 'Stephen',
-      my_level: 'PathwayTwo',
-      my_role: 'Officer',
-      my_duty: 'Host a club',
-      my_mentor: 'Kelly',
-      my_club: 'AmazingFriday'
+      my_name: '请输入头马昵称',
+      my_level: '请输入头马等级',
+      my_role: '请输入头马角色',
+      my_duty: '请输入头马职责',
+      my_mentor: '请输入头马导师',
+      my_club: '请输入头马名称'
     }
   },
 
