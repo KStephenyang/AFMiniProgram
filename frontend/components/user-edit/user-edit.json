@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "v-info": "/components/info-edit/info-edit"
+    "v-input": "/components/info-input/info-input",
+    "v-picker": "/components/info-picker/info-picker"
   }
 }

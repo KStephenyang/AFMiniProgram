@@ -28,7 +28,9 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    club_array: ['AmazingFriday', 'LightHouse', 'ZTalk'],
+    meeting_type_array: ['Week Meeting', 'Month Meeting'],
+    meeting_time_array: ['2019-2-1 19:00', '2019-2-8 19:00', '2019-2-15 19:00']
   },
 
   /**

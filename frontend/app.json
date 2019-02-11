@@ -29,7 +29,7 @@
         "pagePath": "pages/meeting/meeting",
         "selectedIconPath": "/images/tab/news@hl.png",
         "iconPath": "/images/tab/news.png",
-        "text": "角色"
+        "text": "预约"
       },
       {
         "pagePath": "pages/my/my",

@@ -28,7 +28,11 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    club_array: ['AmazingFriday', 'LightHouse', 'ZTalk'],
+    level_array: ['FreshMan', 'Pathway'],
+    role_array: ['Officer', 'PR', 'President'],
+    duty_array: ['Ah conter', 'LightHouse', 'ZTalk'],
+    mentor_array: ['Kelly', 'Leaf', 'May']
   },
 
   /**

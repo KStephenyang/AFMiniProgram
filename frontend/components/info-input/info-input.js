@@ -1,4 +1,4 @@
-// components/info-edit/info-edit.js
+// components/info-input/info-input.js
 Component({
   /**
    * 组件的属性列表

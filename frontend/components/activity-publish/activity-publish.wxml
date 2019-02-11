@@ -1,21 +1,21 @@
 <!--components/activity-publish/publish.wxml-->
 <view class='book-container'>
     <view class='info-container'>
-      <v-info item='俱乐部' value='{{club}}'></v-info>
+      <v-picker item='俱乐部' array='{{club_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='会议类型' value='{{meeting_type}}'></v-info>
+      <v-picker item='会议类型' array='{{meeting_type_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='会议主题' value='{{meeting_topic}}'></v-info>
+      <v-input item='会议主题' placeholder_text='{{meeting_topic}}'></v-input>
     </view>
     <view class='info-container'>
-      <v-info item='会议时间' value='{{meeting_time}}'></v-info>
+      <v-picker item='会议时间' array='{{meeting_time_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='会议地点' value='{{meeting_location}}'></v-info>
+      <v-input item='会议地点' placeholder_text='{{meeting_location}}'></v-input>
     </view>
     <view class='info-container'>
-      <v-info item='分享嘉宾' value='{{guest}}'></v-info>
+      <v-input item='分享嘉宾' placeholder_text='{{guest}}'></v-input>
     </view>
 </view>

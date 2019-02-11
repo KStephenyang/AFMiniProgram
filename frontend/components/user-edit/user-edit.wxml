@@ -1,21 +1,21 @@
 <!--components/user-edit/user-edit.wxml-->
 <view class='user-edit-container'>
     <view class='info-container'>
-      <v-info item='我的名字' placeholder_text='{{my_name}}'></v-info>
+      <v-input item='我的名字' placeholder_text='{{my_name}}'></v-input>
     </view>
     <view class='info-container'>
-      <v-info item='我的头马' placeholder_text='{{my_club}}'></v-info>
+      <v-picker item='我的头马' array='{{club_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='我的等级' placeholder_text='{{my_level}}'></v-info>
+      <v-picker item='我的等级' array='{{level_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='我的角色' placeholder_text='{{my_role}}'></v-info>
+      <v-picker item='我的角色' array='{{role_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='我的职责' placeholder_text='{{my_duty}}'></v-info>
+      <v-picker item='我的职责' array='{{duty_array}}'></v-picker>
     </view>
     <view class='info-container'>
-      <v-info item='我的导师' placeholder_text='{{my_mentor}}'></v-info>
+      <v-picker item='我的导师' array='{{mentor_array}}'></v-picker>
     </view>
 </view>

@@ -1,0 +1,13 @@
+<!--components/info-picker/info-picker.wxml-->
+<view class='container'>
+  <view class='box-container'>
+    <view class='item-container'>
+      <text class='item-reshape'>{{item}}</text>
+    </view>
+    <view class='value-container'>
+      <picker type="text" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <text class='value-reshape'>{{array[index]}}</text>
+      </picker>
+    </view>
+  </view>
+</view>
